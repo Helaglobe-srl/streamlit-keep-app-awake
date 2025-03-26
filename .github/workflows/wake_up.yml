@@ -28,8 +28,8 @@ jobs:
       - name: Run Python script to wake up Streamlit apps
         run: python wake_up_streamlit.py
 
-      - name: Upload log file as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: wakeup-log
-          path: wakeup_log.txt
+      # - name: Upload log file as artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: wakeup-log
+      #     path: wakeup_log.txt
